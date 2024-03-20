@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #e2725b;
+  --color-secondary: #dccda9;
+  --font-primary: 'Space Mono', monospace;
+  --font-secondary: 'Open Sans', monospace;
+  /* Using primary and secondary are industry */
+  /* Do not use more than 3 colors more are frowned on */
+}

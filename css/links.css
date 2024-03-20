@@ -1,0 +1,22 @@
+a {
+  padding: 8px;
+  transition: 500ms all;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color--secondary);
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: var(--color--primary);
+}
+
+a:active {
+  color: white;
+  background-color: var(--color--secondary);
+}

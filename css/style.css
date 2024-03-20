@@ -1,0 +1,55 @@
+@import 'variables.css';
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: -40px;
+  justify-content: center;
+}
+
+li {
+  /* this will allow for a 12 pixel margin on the left and right link */
+  margin: 0 12px;
+}
+
+body {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  color: var(--color-primary);
+  justify-content: center;
+  font-family: var(--font-primary);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.introduction {
+  margin-bottom: 40px;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: var(--font-secondary);
+}
